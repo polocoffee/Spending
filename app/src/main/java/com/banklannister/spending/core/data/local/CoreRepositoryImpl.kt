@@ -4,9 +4,7 @@ import android.content.SharedPreferences
 import com.banklannister.spending.core.domain.CoreRepository
 
 
-/**
- * @author Ahmed Guedmioui
- */
+
 class CoreRepositoryImpl(
     private val prefs: SharedPreferences
 ) : CoreRepository {
